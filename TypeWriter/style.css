@@ -1,0 +1,16 @@
+#titelTypeWriter:after {
+  content: '';
+  display: inline-block;
+  border-right: 4px solid;
+  height: 1em;
+  animation: typewriter-cursor 2s infinite;
+}
+
+@keyframes typewriter-cursor {
+  50% { border-color: transparent; }
+}
+
+.finishedTyping:after {
+  animation: none !important;
+  border-right: none !important;
+}
